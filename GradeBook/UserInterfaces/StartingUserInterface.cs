@@ -42,7 +42,7 @@ namespace GradeBook.UserInterfaces
             var name = parts[1];
             BaseGradeBook gradeBook;
             
-            switch (parts[3])
+            switch (parts[2])
             {
                 case "standard":
                     gradeBook = new StandardGradeBook(name);
